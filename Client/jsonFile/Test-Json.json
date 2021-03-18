@@ -1,0 +1,50 @@
+{
+  "tableName": "People",
+  "where": {
+    "columns": []
+  },
+  "joins": [
+    {
+      "JoinType": 1,
+      "SecondTableName": "Department",
+      "primaryKey": "PerosnId",
+      "ForeingKey": "PersonId"
+    },
+    {
+      "JoinType": 1,
+      "SecondTableName": "Sales",
+      "primaryKey": "PersonId",
+      "ForeingKey": "PersonId"
+    }
+  ],
+  "havings": [
+    {
+      "fieldName": "columnName 1 ",
+      "condition": "greater",
+      "fieldValue": "conditional value"
+    }
+  ],
+  "groupBys": [
+    {
+      "fieldName": "columnName 1",
+      "TableName": "People"
+    }
+  ],
+  "orderbys": [
+    {
+      "operator": "columnName 1 ",
+      "condition": "ASC",
+      "fieldValue": "conditional value"
+    }
+  ],
+  "selects": [
+    {
+      "fieldName": "Name",
+      "TableName": "People"
+    },
+    {
+      "fieldName": "Name",
+      "TableName": "Department"
+    }
+  ]
+}
