@@ -1,0 +1,107 @@
+{
+  "tableName": "People",
+  "where": {
+    "columns": [
+      {
+        "operator": "IN",
+        "fieldName": "PersonId",
+        "fieldValue": 1122
+      },
+      {
+        "operator": "IN",
+        "fieldName": "PersonId",
+        "fieldValue": 2222
+      },
+      {
+        "operator": "EQUALS",
+        "fieldName": "PersonName",
+        "fieldValue": "Ross"
+      },
+      {
+        "operator": "And",
+        "fieldName": "UniqueFeatures",
+        "fieldValue": 2
+      },
+      {
+        "operator": "OR",
+        "fieldName": "LastName",
+        "fieldValue": "Hoy"
+      },
+      {
+        "operator": "NotEquals",
+        "fieldName": "MaritalStatus",
+        "fieldValue": "Married"
+      },
+      {
+        "operator": "Like",
+        "fieldName": "LivingArea",
+        "fieldValue": "SanFran"
+      },
+      {
+        "operator": "Between",
+        "fieldName": "DistanceFromOffice",
+        "fieldValue": 10,
+        "rangeValue": 100
+      },
+      {
+        "operator": "GreaterThan",
+        "fieldName": "Salary",
+        "fieldValue": 40000
+      },
+      {
+        "operator": "LessThan",
+        "fieldName": "NumberOfCars",
+        "fieldValue": 101
+      },
+      {
+        "operator": "LESSTHANEQUAL",
+        "fieldName": "EmpId",
+        "fieldValue": 101
+      }
+    ]
+  },
+  "joins": [
+    {
+      "JoinType": 1,
+      "SecondTableName": "Department",
+      "primaryKey": "PerosnId",
+      "ForeingKey": "PersonId"
+    },
+    {
+      "JoinType": 1,
+      "SecondTableName": "Sales",
+      "primaryKey": "PersonId",
+      "ForeingKey": "PersonId"
+    }
+  ],
+  "havings": [
+    {
+      "fieldName": "columnName 1 ",
+      "condition": "greater",
+      "fieldValue": "conditional value"
+    }
+  ],
+  "groupBys": [
+    {
+      "fieldName": "columnName 1",
+      "TableName": "People"
+    }
+  ],
+  "orderbys": [
+    {
+      "operator": "columnName 1 ",
+      "condition": "ASC",
+      "fieldValue": "conditional value"
+    }
+  ],
+  "selects": [
+    {
+      "fieldName": "Name",
+      "TableName": "People"
+    },
+    {
+      "fieldName": "Name",
+      "TableName": "Department"
+    }
+  ]
+}

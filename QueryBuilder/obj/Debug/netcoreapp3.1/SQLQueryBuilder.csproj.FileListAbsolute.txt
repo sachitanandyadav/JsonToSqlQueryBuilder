@@ -1,0 +1,8 @@
+C:\Users\syadav\Source\Repos\JsonToSqlQueryBuilder\QueryBuilder\bin\Debug\netcoreapp3.1\SQLQueryBuilder.deps.json
+C:\Users\syadav\Source\Repos\JsonToSqlQueryBuilder\QueryBuilder\bin\Debug\netcoreapp3.1\SQLQueryBuilder.dll
+C:\Users\syadav\Source\Repos\JsonToSqlQueryBuilder\QueryBuilder\bin\Debug\netcoreapp3.1\SQLQueryBuilder.pdb
+C:\Users\syadav\Source\Repos\JsonToSqlQueryBuilder\QueryBuilder\obj\Debug\netcoreapp3.1\SQLQueryBuilder.AssemblyInfoInputs.cache
+C:\Users\syadav\Source\Repos\JsonToSqlQueryBuilder\QueryBuilder\obj\Debug\netcoreapp3.1\SQLQueryBuilder.AssemblyInfo.cs
+C:\Users\syadav\Source\Repos\JsonToSqlQueryBuilder\QueryBuilder\obj\Debug\netcoreapp3.1\SQLQueryBuilder.csproj.CoreCompileInputs.cache
+C:\Users\syadav\Source\Repos\JsonToSqlQueryBuilder\QueryBuilder\obj\Debug\netcoreapp3.1\SQLQueryBuilder.dll
+C:\Users\syadav\Source\Repos\JsonToSqlQueryBuilder\QueryBuilder\obj\Debug\netcoreapp3.1\SQLQueryBuilder.pdb
